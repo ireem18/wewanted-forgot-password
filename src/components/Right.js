@@ -55,12 +55,3 @@ export default function Right() {
   );
   }
 
-
-<<<<<<< HEAD
-/*
- 
-
-        */
-=======
- 
->>>>>>> 0b859584e93ceed7366400e6b84f2e98eb0c601e
