@@ -1,5 +1,5 @@
 import React,{Component}from 'react';
-import './Left.css';
+import './../index.css'
 import { Grid, Button,Menu } from 'semantic-ui-react';
 
 
@@ -12,20 +12,21 @@ export default class Left extends Component {
     const { activeItem } = this.state
     return (
     <>
-    <div className="Frame">
-        <Grid columns={2} >
-          <Grid.Row >
-           <Grid.Row>
-                <p className="Lorem-ipsum-Dolor-Sit-Amet-Lorem  "style={{marginTop:'40px'}}>
+        
+          <Grid.Column className="Frame" style={{margin:'0px',padding:"0px"}}>
+          <Grid columns={2} >
+            <Grid.Row style={{ margin: "0px" }}>
+              <Grid.Row>
+                <div className="Lorem-ipsum-Dolor-Sit-Amet-Lorem  " style={{ marginTop: '40px' }}>
                   Lorem ipsum Dolor Sit Amet Lorem
-               </p>
+               </div>
+              </Grid.Row>
+              <Grid.Row>
+                <Button className="Button-1" color='black' style={{ marginLeft: '150px', marginTop: '160px', width: '241px' }}>Button</Button>
+              </Grid.Row>
             </Grid.Row>
             <Grid.Row>
-                <Button className="Button-1" color='black'style={{marginLeft:'150px',marginTop:'160px',width:'241px'}}>Button</Button>
-            </Grid.Row>
-          </Grid.Row>
-            <Grid.Row>
-              <Grid.Column style={{ marginLeft:'410px',marginTop: "120px",width:'165px'}}>
+              <Grid.Column style={{ marginLeft: '142px', marginTop: "130px", width: '165px' }}>
                 <Menu text>
                   <Menu.Item style={{ color: "white" }}
                     name='Anasayfa'
@@ -47,7 +48,7 @@ export default class Left extends Component {
                     active={activeItem === 'etkinlikler'}
                     onClick={this.handleItemClick}
                   />
-                  <Menu.Item style={{ color: "white"}}
+                  <Menu.Item style={{ color: "white" }}
                     name='Blog'
                     active={activeItem === 'blog'}
                     onClick={this.handleItemClick}
@@ -55,33 +56,12 @@ export default class Left extends Component {
                 </Menu>
               </Grid.Column>
             </Grid.Row>
-        </Grid>
+          </Grid>
 
-              
-        
-    </div>
+          </Grid.Column>
+      
     </>
   );
 }
 }
 
-/*
-<div className="overlay">
-         <div className="overlay-panel overlay-right ">
-          <p className="Lorem-ipsum-Dolor-Sit-Amet-Lorem  ">
-            Lorem ipsum Dolor Sit Amet Lorem
-          </p>
-
-          <button  className="Rectangle-3 ">
-            <span className="Button-1">Button</span>
-          </button>
-
-          <div className="footer">
-            <span className="Anasayfa" style={{ paddingRight: '10px' }}>Anasayfa</span>
-            <span className="Hakkımızda" style={{ paddingRight: '10px' }}>Hakkımızda</span>
-            <span className="WeWantEd-Labs" style={{ paddingRight: '10px' }}>WewantEd-Labs</span>
-            <span className="Etkinlikler" style={{ paddingRight: '10px' }}>Etkinlikler</span>
-            <span className="Blog" style={{ paddingRight: '10px' }}>Blog</span>
-          </div>
-        </div>
- */

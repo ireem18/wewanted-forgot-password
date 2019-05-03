@@ -1,21 +1,8 @@
-.FrameLogin{
-  background-color:#1d1e22;
-  height: 100vh;
-  width: 100vh;
-}
-
-.Logo1{
-  width: 100px;
-  height: 60px;
-  object-fit: contain;
-  margin-top:30px;
-  
-}
 .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry {
   width: 380px;
   height: 75px;
   font-family: Roboto;
-  font-size: 21px;
+  font-size: 25px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -44,26 +31,6 @@
   margin-left:20px;
  
 }
-.text{
-  display:flex;
-  justify-content: center;
-  font-size:15px;
-  color:white;
-  margin-top:10px;
-
-}
-
-.Inputs{
-  margin-top:40px;
-  margin-left:100px;
-
-}
-.envelope-solid {
-  width: 24px;
-  height: 18px;
-  background-color:white;
-  background-image: url("./../issue/e.png");
-}
 
 .Input-Base {
   
@@ -85,7 +52,7 @@
   margin-top: 20px;
 }
 
-.Aramza-katlmak-ister-misin-Kayt {
+.Aramza-katlmak-ister-misin-Kayıt-mobil {
   
   width: 250px;
   height: 11px;
@@ -117,18 +84,13 @@
  
 }
 
-.hro{
+.hr-mobil{
   width: 135px;
   border-color:#f89f23;
   margin-left: 80px;
 }
 
-.Aramza-katlmak-ister-misin-Kayt-Ol.text-style-1 {
-  color:orange;
-}
-
-
-.kayit-ol {
+.kayit-ol-mobil {
   
   font-family: Roboto;
   font-size: 16px;

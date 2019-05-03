@@ -2,17 +2,16 @@ import React from 'react';
 import './Mobil.css';
 import './../index.css';
 import logo from './../issue/LOGO1.png';
-import email from './../issue/e.png';
-import { Image, Input, Icon, Grid, Button } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 
 
-export default function Right() {
+export default function Mobil() {
   return (
     <>
     <div className="mobil">
         <Grid.Row >
           <Grid.Column>
-            <img class=" ui small Logo1" src={logo} style={{ marginTop: '5px', width: '307px', height: '78px', marginLeft: '5px' }} alt="logo" />
+            <img class=" ui small" src={logo} style={{ marginTop: '5px', width: '307px', height: '78px', marginLeft: '3px' }} alt="logo" />
           </Grid.Column>
           <Grid.Column >
             <p className="Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry" style={{ marginTop: "20px", marginLeft: "0px",width:"320px" }}>
@@ -34,15 +33,15 @@ export default function Right() {
           <Grid.Column>
             <div className="footer" style={{ marginTop: '45px', marginLeft: '0px' }}>
               <span className="Giris-yap">Giriş Yap'a Geri Dön</span>
-              <hr className="hro" style={{ backgroundColor: '#f89f23' }} />
+              <hr className="hr-mobil" style={{ backgroundColor: '#f89f23' }} />
             </div>
           </Grid.Column>
           <Grid.Column>
-            <div className="footer" style={{ marginTop: '90px', marginLeft: '20px' }}>
-              <span className="Aramza-katlmak-ister-misin-Kayt">
+            <div className="footer" style={{ marginTop: '50px', marginLeft: '20px' }}>
+              <span className="Aramza-katlmak-ister-misin-Kayıt-mobil">
                 Aramıza katılmak ister misin?{' '}
               </span>
-              <span className="kayit-ol" id="signUp">
+              <span className="kayit-ol-mobil" id="signUp">
 
                 Kayıt Ol
         </span>
